@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 30px 40px;
+    background-image: url(realistic-style-technology-particle-background_23-2148426704.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 250px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a a:hover {
+    color: #BF40BF;
+}
+
+header h1 {
+    font-size: 34px;
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 24;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.job-search {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.job-search select, .job-search button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+.job-search button {
+    background-color: #BF40BF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.popular-Searches button {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
