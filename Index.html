@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>App</title>
+        <link rel="stylesheet"
+        href="Index.css">
+        <link rel="icon" type="image/X-icon" href="sign-up-icon-showing-registering-new-account-vector.jpg">
+    </head>
+    <body>
+        <h2 style="text-align: center; font-size: 20px; color: #f1f1f1;" >Login With Social Media or Manually</h2>
+        <form action="action_page.php" method="post" id="Form">
+            <div class="container">
+             <label>
+                <i class="fa-solid fa-user fa-xl"></i>
+             </label>
+             <input type="text" placeholder="Enter Username" name="Uname" required>
+ 
+             <label>
+                <i class="fa-solid fa-lock fa-xl"></i>
+             </label>
+             <input type="password" placeholder="Enter password" name="psw" required>
+                <input type="checkbox" checked="" name="remember">Remember me
+            </label>
+ 
+             <button><a href="Dashboard.html">LOGIN</a></button>
+            </div>
+            <br>
+            <div class="divider">
+                <hr class="line">
+                <span class="or-text">OR</span>
+                <hr class="line">
+            </div>
+            <br>
+            <div class="Social-icons">
+                <a href="#"><i class="fa-brands fa-google fa-2xl"></i></a>
+                <br><br>
+                <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+              </div>
+            </div><p style="font-size: 15px;">Not registered? <a href="Signup.html">create an account</a></p>
+            </form>  
+            <script>
+                function func(){
+                    var email = document.getElementById("Username").Value;
+                    var pass = document.getElementById('password').value;
+                    if (username == 'Akindipe' && pass == 'Akindipe@1'){
+                        alert("successfull!")
+                        window.location.assign("Dashboard.html")
+                    }
+                    else{
+                        alert("wrong entry invalid")
+                    }
+                }
+                
+            </script>
+    </body>
+</html>
